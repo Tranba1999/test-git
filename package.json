@@ -1,0 +1,19 @@
+{
+  "name": "test-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tranba1999/test-git.git"
+  },
+  "author": "Tranba1999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tranba1999/test-git/issues"
+  },
+  "homepage": "https://github.com/Tranba1999/test-git#readme"
+}

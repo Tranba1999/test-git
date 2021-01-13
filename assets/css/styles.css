@@ -12,18 +12,26 @@ html {
 }
 
 #header {
-    height: 40vh;
-    background: url('./assets/img/logo-web.jpg');
+    height: 200px;
+    position: relative;
+    top: 50px;
+    background: url(https://yt3.ggpht.com/-utsqoWvlSqU12IZ_k9kO0DXZ9yooEmneZgwYoCF0AJtJ7NbayD8AqnpoHAjC-gPhP9yy3E2eQ=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj);
+    background-repeat: no-repeat;
 }
 
 #navigation {
     height: 50px;
     background-color: burlywood;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #navigation .search-btn {
     float: right;
     padding: 0 20px;
+    transition: background-color 0.5s;
 }
 
 #navigation .search-btn:hover {
@@ -51,25 +59,27 @@ html {
 
 #nav li {
     position: relative;
+    transition: background-color 0.5s;
 }
 #nav .subnav li:hover,
 #nav > li:hover >a
 {
     color: #000;
     background: #ccc;
+    border-bottom: 2px solid red;
 }
 
 #nav > li > a {
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 #nav li a {
-
+    transition: background-color 0.5s;
     text-decoration: none;
-    padding: 0 12px;
+    padding: 16px 12px;
     line-height: 50px;
-    display: block;
+    /* display: block; */
 }
 
 #nav li:hover .subnav {
@@ -83,8 +93,9 @@ html {
     width: 100%;
     top: 100%;
     left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
+
 
 #nav .subnav a {
     color: #000;

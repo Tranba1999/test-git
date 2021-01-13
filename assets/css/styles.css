@@ -13,7 +13,7 @@ html {
 
 #header {
     height: 40vh;
-    background: url('./assets/img/logo-web.jpg');
+    background: url('/assets/img/logo-web.jpg');
 }
 
 #navigation {

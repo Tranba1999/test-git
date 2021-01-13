@@ -71,7 +71,7 @@ html {
 
 #nav > li > a {
     color: #fff;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 
 #nav li a {

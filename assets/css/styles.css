@@ -153,7 +153,10 @@ html {
     position: relative;
     margin-top: 50px;
     padding-top: 50%;
-    background: url(https://drscdn.500px.org/photo/73372931/q%3D80_m%3D1000/v2?sig=78a27791708002adaed1f38934a6ab7dd76d08c5206ca46efed5969f5d02e36c) top center / cover no-repeat;
+    background-image: url(/assets/img/Kitayama.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #slider .text-content {

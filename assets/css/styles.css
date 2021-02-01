@@ -191,7 +191,7 @@ html {
     position: relative;
     margin-top: 50px;
     padding-top: 50%;
-    background-image: url(/assets/img/Kitayama.jpg);
+    background-image: url('./assets/img/Kitayama.jpg');
     background-repeat: repeat;
     background-position: center;
     background-size: cover;

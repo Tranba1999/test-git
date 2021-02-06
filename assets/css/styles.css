@@ -191,7 +191,7 @@ html {
     position: relative;
     margin-top: 50px;
     padding-top: 50%;
-    background: url('./assets/img/Kitayama.jpg') top center / cover no-repeat;
+    background: url(test-git/assets/img/Kitayama.jpg) top center / cover no-repeat;
 }
 
 #slider .text-content {
